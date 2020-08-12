@@ -1,0 +1,17 @@
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	test(3)
+}
+
+func test(num int) int{
+	a:=0
+	for i := a; i < num; i++ {
+		fmt.Print("Text")
+	}
+	return num
+}
